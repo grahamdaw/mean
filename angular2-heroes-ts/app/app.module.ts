@@ -4,11 +4,11 @@ import { FormsModule }         from '@angular/forms';
 
 import { routing }             from './app.routing';
 
-import { AppComponent }        from './app.component';
-import { DashboardComponent }  from './dashboard.component';
-import { HeroDetailComponent } from './hero-detail.component';
-import { HeroesComponent }     from './heroes.component';
-import { HeroService }         from './hero.service';
+import { AppComponent }        from './components/app.component';
+import { DashboardComponent }  from './components/dashboard.component';
+import { HeroDetailComponent } from './components/hero-detail.component';
+import { HeroesComponent }     from './components/heroes.component';
+import { HeroService }         from './services/hero.service';
 
 @NgModule({
   imports: [
@@ -16,7 +16,7 @@ import { HeroService }         from './hero.service';
     FormsModule,
     routing
   ],
-  
+
   declarations: [
     AppComponent,
     DashboardComponent,

@@ -1,0 +1,5 @@
+
+Missing gotoDetail() function in routing tutorial. Needs added to two modules.
+
+Wrong File name for HTTP guide:
+app/in-memory-data.service.ts
